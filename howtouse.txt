@@ -1,0 +1,14 @@
+// Инструкции за използване
+Приложението се компилира с make.
+Може да се компилира и с командата:
+g++ main.cpp functions.cpp homeScreen.cpp correctnessCheckScreen.cpp printFormattedScreen.cpp dayOfWeekScreen.cpp printCalendarScreen.cpp addSubtractScreen.cpp descriptionScreen.cpp durationScreen.cpp easterScreen.cpp advancedModeScreen.cpp -o dates
+
+
+Приложението се стартира от dates(.exe). 
+
+След пускането му се вижда началният екран на приложението, където се избира
+една от операциите с дати, чрез въвеждане на съответния символ.
+
+За всяка от опциите преди въвеждането на данни се извеждат кратки инструкции за въвеждане.
+
+От началния екран приложението се спира след въвеждане на символа 'e' (на латиница).
